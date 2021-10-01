@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"time"
 
-	"gopkg.in/redis.v4/internal"
-	"gopkg.in/redis.v4/internal/errors"
+	"github.com/crisp-dev/go-redis/internal"
+	"github.com/crisp-dev/go-redis/internal/errors"
 )
 
 func readTimeout(timeout time.Duration) time.Duration {

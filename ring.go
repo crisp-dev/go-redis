@@ -7,10 +7,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"gopkg.in/redis.v4/internal"
-	"gopkg.in/redis.v4/internal/consistenthash"
-	"gopkg.in/redis.v4/internal/hashtag"
-	"gopkg.in/redis.v4/internal/pool"
+	"github.com/crisp-dev/go-redis/internal"
+	"github.com/crisp-dev/go-redis/internal/consistenthash"
+	"github.com/crisp-dev/go-redis/internal/hashtag"
+	"github.com/crisp-dev/go-redis/internal/pool"
 )
 
 var errRingShardsDown = errors.New("redis: all ring shards are down")

@@ -4,7 +4,7 @@ import (
 	"net"
 	"time"
 
-	"gopkg.in/redis.v4/internal/pool"
+	"github.com/crisp-dev/go-redis/internal/pool"
 )
 
 type Options struct {

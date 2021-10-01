@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"gopkg.in/redis.v4"
+	"github.com/crisp-dev/go-redis"
 )
 
 var client *redis.Client

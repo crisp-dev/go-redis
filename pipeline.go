@@ -4,8 +4,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"gopkg.in/redis.v4/internal/errors"
-	"gopkg.in/redis.v4/internal/pool"
+	"github.com/crisp-dev/go-redis/internal/errors"
+	"github.com/crisp-dev/go-redis/internal/pool"
 )
 
 // Pipeline implements pipelining as described in

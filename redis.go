@@ -1,12 +1,12 @@
-package redis // import "gopkg.in/redis.v4"
+package redis // import "github.com/crisp-dev/go-redis"
 
 import (
 	"fmt"
 	"log"
 
-	"gopkg.in/redis.v4/internal"
-	"gopkg.in/redis.v4/internal/errors"
-	"gopkg.in/redis.v4/internal/pool"
+	"github.com/crisp-dev/go-redis/internal"
+	"github.com/crisp-dev/go-redis/internal/errors"
+	"github.com/crisp-dev/go-redis/internal/pool"
 )
 
 // Redis nil reply, .e.g. when key does not exist.

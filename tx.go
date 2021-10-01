@@ -4,10 +4,10 @@ import (
 	"errors"
 	"fmt"
 
-	"gopkg.in/redis.v4/internal"
-	ierrors "gopkg.in/redis.v4/internal/errors"
-	"gopkg.in/redis.v4/internal/pool"
-	"gopkg.in/redis.v4/internal/proto"
+	"github.com/crisp-dev/go-redis/internal"
+	ierrors "github.com/crisp-dev/go-redis/internal/errors"
+	"github.com/crisp-dev/go-redis/internal/pool"
+	"github.com/crisp-dev/go-redis/internal/proto"
 )
 
 // Redis transaction failed.

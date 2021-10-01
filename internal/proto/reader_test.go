@@ -7,7 +7,7 @@ import (
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"gopkg.in/redis.v4/internal/proto"
+	"github.com/crisp-dev/go-redis/internal/proto"
 )
 
 var _ = Describe("Reader", func() {
